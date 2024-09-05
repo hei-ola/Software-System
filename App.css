@@ -1,0 +1,254 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para el contenedor */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #002B5C; /* Azul oscuro */
+    color: #ffffff;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #004080; /* Azul un poco más claro */
+}
+
+/* Estilos para la sección principal */
+.hero {
+    background-color: #E6E6E6; /* Gris claro */
+    padding: 5rem 0;
+    text-align: center;
+    color: #002B5C; /* Azul oscuro */
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    background-color: #E63946; /* Rojo */
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #B22234; /* Rojo más oscuro */
+}
+
+/* Estilos para la sección de servicios */
+.services {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #F2F2F2; /* Gris muy claro */
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #002B5C; /* Azul oscuro */
+}
+
+.service {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #004080; /* Azul intermedio */
+}
+
+/* Estilos para testimonios */
+.testimonials {
+    background-color: #002B5C; /* Azul oscuro */
+    padding: 4rem 0;
+    text-align: center;
+    color: white;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+/* Estilos para la sección de contacto */
+.contact {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #002B5C; /* Azul oscuro */
+}
+
+.contact p {
+    margin-bottom: 0.5rem;
+}
+
+.contact a.btn {
+    display: inline-block;
+    background-color: #002B5C; /* Azul oscuro */
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact a.btn:hover {
+    background-color: #004080; /* Azul más claro */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #002B5C; /* Azul oscuro */
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos para la sección de precios de servicios */
+.service-pricing {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.service-pricing h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #002B5C; /* Azul oscuro */
+}
+
+.card {
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    transition: transform 0.3s ease;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #004080; /* Azul intermedio */
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card strong {
+    color: #E63946; /* Rojo */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.service-section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.service-section h2 {
+    color: #0044cc;
+    border-bottom: 3px solid #0044cc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.service-section p {
+    line-height: 1.6;
+}
+
+.service-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: square;
+    padding-left: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
