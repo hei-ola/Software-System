@@ -260,16 +260,11 @@ footer {
     padding: 20px;
 }
 
-.section-imgtext--col {
-    display: flex;
-    flex-direction: column;
-}
-
-.section-imgtext--img {
-    margin-bottom: 10px;
-}
-
 .lottie-animation {
     width: 300px; /* Ajusta el tamaño según lo necesites */
     height: 300px;
+        top: 30px;
+    position: absolute;
+    top: 247px;
+    left: 500px;
 }
